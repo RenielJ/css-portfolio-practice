@@ -7,6 +7,10 @@ body{
     text-align: center;
 }
 
+.blue{
+    color: rgba(5, 5, 161, 0.808);
+}
+
 .line{
     border: solid rgb(160, 7, 7) 5px;
     border-radius: 20px;
