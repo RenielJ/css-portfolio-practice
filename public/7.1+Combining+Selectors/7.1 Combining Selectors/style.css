@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+/* seperator */
+h1, h2{
+    color: blueviolet; 
+}
+
+/* parent > child selector*/
+.box > p{
+    color: firebrick;
+}
+
+/* descendant */
+.box li{
+    color: blue;
+}
+
+/* Chaining - specific*/ 
+li.done{
+    color: seagreen;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}

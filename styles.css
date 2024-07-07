@@ -1,0 +1,17 @@
+body{
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.line{
+    border: solid rgb(160, 7, 7) 5px;
+    border-radius: 20px;
+}
+
+.list-layout{
+    margin: 10px 100px;
+}
