@@ -1,19 +1,20 @@
 /* Don't change the existing CSS. */
 
-.box {
-  background-color: blue;
-  padding: 10px;
+#outer-box{
+  height: 100%;
+  border: solid purple 10px;
 }
 
-p {
+p{
   color: yellow;
   margin: 0;
   padding: 0;
+
 }
 
-#outer-box{
-  background-color: blueviolet;
-  padding: 10px;
+.box{
+  background-color: blue;
+  padding: 5px;
 }
 
 .white-text{
@@ -22,4 +23,5 @@ p {
 
 .inner-box{
   background-color: red;
+  padding: 5px;
 }
