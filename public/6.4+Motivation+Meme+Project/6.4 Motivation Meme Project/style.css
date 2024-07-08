@@ -29,6 +29,12 @@ body{
     text-align: center;
 }
 .main-img{
-    border: solid grey;
+    border: solid #388b8c;
     border-width: 10px;
+}
+
+.text-paragraph{
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.5em;
+    color: grey;
 }
