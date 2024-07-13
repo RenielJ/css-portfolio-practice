@@ -1,62 +1,78 @@
-body {
-  font-family: "Poppins", sans-serif;
-  margin: auto;
+body{
+  margin: 40px;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
+  background-color: wheat;
 }
-.main {
-  flex: 1;
-  background-color: #faf9f6;
-  margin: 20px 50px;
-  display: inline-block;
-}
+
 .logo{
-  float: left;
   width: 200px;
+  background-color: black;
 }
-h1 {
+
+.tile-image{
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.title{
+  text-align: center;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: heavy;
+  font-style: normal;
   font-size: 5rem;
 }
 
-footer {
-  text-align: right;
-  color: midnightblue;
-  background-color: antiquewhite;
+.main{
+  flex: 1;
 }
-
 .card{
-  width: 700px;
+  width: 45%;
 }
-
 .left{
-  float: right; 
+  float: left;
 }
 
 .right{
-  float: left;
-}
-.tile-image{
-  width: 400px;
-  float: left;
-  margin: 5px;
+  float: right;
 }
 
-@media (min-width:300px) and  (max-width:700px){
+.card-text{
+  font-family: "Montserrat", sans-serif;
+}
+
+footer{
+  text-align: center;
+  display: block;
+  margin: none;
+}
+
+
+@media (max-width: 680px){
   .logo{
-    width: 100px;
-  }
-  .tile-image{
-    width: 300px;
-    float: left;
-  }
-  .card{
-    width: 400px;
-  }
+    width: 100px}
+    
   h1{
     font-size: 3.5rem;
-    text-align: center;
   }
-  
+
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img{
+    margin-bottom: 10px;
+    width: 90%;
+    display: incline;
+    object-fit: cover;
+  }
 }
-  
